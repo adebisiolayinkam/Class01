@@ -19,6 +19,7 @@ namespace Class01.Controllers
             _dbcontex = dbcontex;
 
         }
+
         [HttpGet]
         [Route("Employees")]
         public ActionResult<IEnumerable<Employee>> GetallEmployee()
